@@ -2,3 +2,18 @@
     color: var(--white-color);
 }
 
+.main__discount__text {
+    color: var(--white-color);
+}
+
+.main__discount__button {
+    color: var(--white-color);
+}
+
+/**Added temporary background-color. Remove when styling backgrounds below this line below this line**/
+
+.main__discount {
+    background-color: black;
+}
+
+/**...above this line**/
