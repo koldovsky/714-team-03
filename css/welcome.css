@@ -1,0 +1,35 @@
+.welcome__to__barbershop{
+    text-align: left;
+}
+.welcome__textblock h2{
+    font-size: 54px;
+    color: var(--black-color);
+    font-family: Playfair Display,serif;
+    font-weight: 700;
+    width: 400px;
+}
+
+.welcome__textblock{
+    width: 495px;
+}
+
+.welcome__textblock p{
+    font-size: 16px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    color: var(--black-color);
+}
+
+.welcome__image{
+    width: 495px;
+}
+
+.welcome__image img{
+    width: 100%;
+}
+
+.welcome__textblock hr{
+    width: 45px;
+    height: 2px;
+    background-color: var(--green-color);
+}
