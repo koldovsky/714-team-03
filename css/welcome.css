@@ -33,3 +33,11 @@
     height: 2px;
     background-color: var(--green-color);
 }
+
+.welcome__textblock a{
+    text-decoration: none;
+    color: var(--black-color);
+    font-weight: 700;
+    border: 2px solid var(--green-color);
+    /* padding: 13px 30px; */
+}
