@@ -253,8 +253,8 @@
 
     <!-- Volodymyr Komarnytskyi OUR PRODUCTS  -->
     <section class="section" id="products">
-        <h2>Our Products</h2>
-        <p>We have everything a man may need for his hair care.</p>
+        <h2 class="products__title">Our Products</h2>
+        <p class="products__subtitle">We have everything a man may need for his hair care.</p>
         <div class="cards">
             <div class="card">
                 <div class="card__inner">
@@ -362,14 +362,14 @@
 
     <!-- BOOK AN APPOINTMENT -->
     <section class="book an appointment">
-        <h2>Book an Appointment</h2>
-        <p>Want to get a perfect haircut? Just book an appointment and we'll contact you as soon as possible.</p>
+        <h2 class="form__title">Book an Appointment</h2>
+        <p class="form__description">Want to get a perfect haircut? Just book an appointment and we'll contact you as soon as possible.</p>
         <form action="https://formspree.io/f/xbjbdqvr" method="POST">
-            <input type="text" name="name" required placeholder="Name">
-            <input type="text" name="phone nomber" required placeholder="Phone nomber">
-            <input type="text" name="email" required placeholder="Email">
-            <input type="text" name="location" required placeholder="Location">
-            <input type="submit" value="Book an appointment">
+            <input class="input__inner" type="text" name="name" required placeholder="Name*">
+            <input class="input__inner" type="tel" name="phone-number" required placeholder="Phone nomber*">
+            <input class="input__inner" type="email" name="email" required placeholder="Email*">
+            <input class="input__inner" type="text" name="location" required placeholder="Location">
+            <button class="form__btn" type="submit">Book an appointment</button>
         </form>
     </section>
 
