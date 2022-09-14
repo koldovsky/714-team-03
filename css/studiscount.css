@@ -1,3 +1,8 @@
+
+.discount {
+    position: relative;
+}
+
 .main__discount__title {
     color: var(--white-color);
     font-family: Playfair Display,serif;
@@ -14,10 +19,27 @@
     color: var(--white-color);
 }
 
+.main__discount__button {
+    text-decoration: none;
+
+}
+
+.main__discount__text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.main__discount__button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+
+}
 /**Added temporary background-color. Remove when styling backgrounds below this line below this line**/
 
 .main__discount {
     background-color: black;
+
 }
 
 /**...above this line**/
