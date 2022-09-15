@@ -31,16 +31,18 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 60px;
-    max-width: 60%;
-    justify-content: flex-end;
-    /*position: relative;
-    gap: 5px; */
+    padding: 0px;
+    margin: 0px;
+   /* max-width: 70%;
+     justify-content: flex-end; */
+    /*position: relative; */
+    gap: 50px;
 }
 
 .awards__img {
     max-width: 100%;
     height: auto;
+    box-sizing: border-box;
 }
 
 .awards__text {
@@ -57,4 +59,5 @@
 .awards__column {
     display: flex;
     flex-direction: column;
+    margin: 0px 0px 0px 0px;
 }
