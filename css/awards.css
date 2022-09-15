@@ -1,0 +1,46 @@
+.awards {
+    background-color: var(--white-accent-color);
+    padding: 80px 0px 100px;
+
+}
+
+.awards__header {
+    padding: 0px 0px 12.5px;
+    color: var(--black-color);
+    text-align: center;
+    font-size: 36px;
+    font-stretch: 100%;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    overflow-wrap: break-word;
+}
+
+.awards__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px;
+}
+
+.awards__img {
+    width: 100%;
+    height: auto;
+}
+
+.awards__text {
+    color: var(--black-color);
+    text-align: center;
+    font-size: 20px;
+    font-stretch: 100%;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    overflow-wrap: break-word; 
+}
+
+.awards__column {
+    display: flex;
+    flex-direction: column;
+}
+
