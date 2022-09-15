@@ -16,15 +16,26 @@
     overflow-wrap: break-word;
 }
 
+.awards__header:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 45px;
+    margin: auto;
+    background-color: var(--green-color);
+  }
+
 .awards__row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     padding: 60px;
+    /* justify-content: center;
+    position: relative;
+    gap: 5px; */
 }
 
 .awards__img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -43,4 +54,3 @@
     display: flex;
     flex-direction: column;
 }
-
