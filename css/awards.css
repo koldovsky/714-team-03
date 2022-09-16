@@ -2,11 +2,10 @@
     background-color: var(--white-accent-color);
     padding: 80px 0px 100px;
     text-align: center;
-
 }
 
 .awards__header {
-    padding: 0px 0px 12.5px;
+    padding: 0px 0px 60px;
     color: var(--black-color);
     text-align: center;
     font-size: 36px;
@@ -24,59 +23,37 @@
     width: 45px;
     margin: auto;
     background-color: var(--green-color);
-  }
+}
 
 .awards__row {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 0px;
     margin: 0px;
-   /* max-width: 70%;
-     justify-content: flex-end; */
-    /*position: relative; */
     gap: 50px;
-}
-
-
-
-
-.awards__text {
-    color: var(--black-color);
-    text-align: left;
-    font-size: 20px;
-    /* font-stretch: 100%; */
-    font-family: Montserrat, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    overflow-wrap: break-word; 
-    margin: 0px 0px 0px 0px;
 }
 
 .awards__column {
     display: flex;
     flex-direction: column;
-  
     margin: 0px 0px 0px 0px;
-
-    /* display:flex; */
-    justify-content: center; /*центрируем элемент по горизонтали */
-    align-items: flex-start; /* и вертикали */
-    width: 200px; /* задали размеры блоку-родителю */
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    /* задали размеры блоку-родителю */
     height: 200px;
-    overflow: hidden; /* если элемент больше блока-родителя – обрезаем лишнее */
+    overflow: hidden;
+    /* если элемент больше блока-родителя – обрезаем лишнее */
 }
 
 .awards__img {
     display: block;
     max-width: 50%;
+    justify-content: center;
+    align-items: center;
     margin: 0px 0px 0px 0px;
-    /* margin-left: 0;
-    margin-right: 0; */
-    /* max-width: 100%;
-    height: auto;
-    box-sizing: border-box; */
 }
 
 .awards__image {
@@ -84,5 +61,15 @@
     height: 100%;
     margin: 0px 0px 0px 0px;
     object-fit: contain;
-    align-items: center	
+    align-items: center
+}
+
+.awards__text {
+    color: var(--black-color);
+    text-align: center;
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
 }
