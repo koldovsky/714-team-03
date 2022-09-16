@@ -1,12 +1,51 @@
-.gallery__main__title {
-    color: var(--title-brown-color);
-    font-family: Playfair Display,serif;
-    font-size: 54px;
-    font-weight: 700;
-    width: 400px;
+.gallery__header {
+  font-size: 16px;
+  font-stretch: 100%;
+  font-weight: 400;
+  line-height: 27.2px;
 }
 
-.gallery__main__images {
-    list-style-type: none;
+.gallery__header__box {
+  text-align: center;
+}
+
+.gallery__header__text__box {
+  position: relative;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.gallery__header__text__box::after {
+  content: "";
+  position: absolute;
+  width: 45px;
+  height: 2px;
+  background-color: #3fb386;
+}
+
+.gallery__header__text__content {
+  padding: 10px;
+  text-align: center;
+  text-decoration-thickness: auto;
+}
+
+.gallery__header__title {
+  color: var(--title-brown-color);
+  font-family: Playfair Display, serif;
+  font-size: 54px;
+  font-weight: 700;
+  width: 400px;
+}
+
+.gallery__main__images__box {
+  margin-top: 45px;
+}
+
+.gallery__main__image {
+  width: 272px;
+  height: auto;
+  object-fit: cover;
+  object-position: 100% 50%;
+  line-height: 27.2px;
 }
 
