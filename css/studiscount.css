@@ -1,45 +1,74 @@
-
 .discount {
-    position: relative;
+  position: relative;
+}
+
+.discount__beckground {
+  background-image: url(../img/scisers.webp);
+  padding: 100px;
+}
+
+.main__discount__title__box {
+  padding: 10px;
+}
+
+.main__discount__title__box:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 45px;
+  margin: auto;
+  background-color: var(--green-color);
 }
 
 .main__discount__title {
-    color: var(--white-color);
-    font-family: Playfair Display,serif;
-    font-size: 54px;
-    font-weight: 700;
-    width: 400px;
+  color: var(--white-color);
+  font-family: Playfair Display, serif;
+  font-size: 54px;
+  font-weight: 700;
+  width: 400px;
+  text-align: center;
+}
+
+.main__discount__button__box {
+  text-align: center;
+  padding: 50px;
+}
+
+.main__discount__text__box {
+  margin: 10px;
 }
 
 .main__discount__text {
-    color: var(--white-color);
+  color: var(--white-color);
+  text-align: center;
 }
 
 .main__discount__button {
-    color: var(--white-color);
+  justify-content: center;
+  display: inline-block;
+  vertical-align: top;
+  padding: 8px 30px;
+  border: 3px solid var(--green-color);
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--white-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+}
+
+.main__discount__button__box {
+}
+
+.main__discount__text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 .main__discount__button {
-    text-decoration: none;
-
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
 }
-
-.main__discount__text{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-}
-
-.main__discount__button {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    text-align: center;
-
-}
-/**Added temporary background-color. Remove when styling backgrounds below this line below this line**/
-
-.main__discount {
-    background-color: black;
-
-}
-
-/**...above this line**/

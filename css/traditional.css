@@ -1,10 +1,29 @@
-.main__traditional__title {
-    color: var(--title-brown-color);
-    font-family: Playfair Display,serif;
-    font-size: 54px;
-    font-weight: 700;
-    width: 400px;
+.traditional {
+  position: relative;
 }
 
+.main__traditional__title__box:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 45px;
+  margin: auto;
+  background-color: var(--green-color);
+}
 
+.main__traditional__title__box {
+}
 
+.main__traditional__title {
+  color: var(--title-brown-color);
+  font-family: Playfair Display, serif;
+  font-size: 54px;
+  font-weight: 700;
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+}
+
+.main__traditional__image__box {
+  margin: 45px;
+}
