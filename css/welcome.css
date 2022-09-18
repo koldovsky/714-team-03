@@ -49,8 +49,17 @@
 }
 
 @media (min-width: 770px){
-    .welcome__to__barbershop > container{
+    .welcome__to__barbershop > .container{
         display: flex;
-        flex-direction: column;
+        
     }
+    .welcome__image{
+        width: 350px;
+        margin-right: 20px;
+    }
+
+    .welcome__image, .welcome__textblock {
+        flex-basis: 50%;
+    }
+
 }
