@@ -1,5 +1,5 @@
 .company__benefits {
-    background-image: url(../img/background-block3.webp);
+    background: linear-gradient(rgba(39, 37, 35, 0.7), rgba(39, 37, 35, 0.7)), url(../img/background-block3.webp);
     padding: 80px 0px;
 }
 
