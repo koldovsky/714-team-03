@@ -1,0 +1,13 @@
+.services__header {
+    background-image: linear-gradient(to bottom, black 0%, transparent 100%), url(../img/we_are_always.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 300px;
+    margin: 20px auto;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.services__header_text {
+    margin: 80px auto;
+}
