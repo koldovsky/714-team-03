@@ -39,7 +39,7 @@
 
 .gallery__main__images__box {
   width: 100%;
-  gap: 10px;
+  gap: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   flex-wrap: wrap;
