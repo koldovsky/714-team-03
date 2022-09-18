@@ -40,12 +40,15 @@
 .gallery__main__images__box {
   width: 100%;
   gap: 15px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   flex-wrap: wrap;
   margin-top: 60px;
-  margin-bottom: 57px;
+  margin-bottom: 60px;
   padding: 0 40px;
-  flex-direction: row;
+}
+
+@media (max-width: 992px) {
 }
 
 .gallery__main__image {
