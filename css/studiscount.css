@@ -3,14 +3,18 @@
 }
 
 .discount__beckground {
-  background-image: url(../img/scisers.webp);
+  background-image: linear-gradient(
+      rgba(26, 27, 32, 0.8),
+      rgba(26, 27, 32, 0.8)
+    ),
+    url(../img/scisers.webp);
   background-clip: border-box;
   padding: 100px;
 }
 
 .main__discount__title__box {
   padding: 0ch 0px 60px;
-  color: var(--title-brown-color);
+  color: var(--white-color);
   text-align: center;
   font-size: 36px;
   font-stretch: 100%;
