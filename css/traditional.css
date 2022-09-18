@@ -12,6 +12,7 @@
 }
 
 .main__traditional__title__box {
+  width: 100%;
 }
 
 .main__traditional__title {
@@ -22,8 +23,16 @@
   width: 400px;
   padding: 10px;
   text-align: center;
+  display: table-row-group;
 }
 
 .main__traditional__image__box {
-  margin: 45px;
+  margin-top: 45px;
+  padding: 25px;
+  display: flex;
+}
+
+.main__traditional__image {
+  display: block;
+  width: 100%;
 }

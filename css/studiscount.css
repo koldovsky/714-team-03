@@ -4,11 +4,13 @@
 
 .discount__beckground {
   background-image: url(../img/scisers.webp);
+  background-clip: border-box;
   padding: 100px;
 }
 
 .main__discount__title__box {
   padding: 10px;
+  width: 100%;
 }
 
 .main__discount__title__box:after {
@@ -26,7 +28,6 @@
   font-size: 54px;
   font-weight: 700;
   width: 400px;
-  text-align: center;
 }
 
 .main__discount__button__box {
@@ -57,6 +58,7 @@
   text-decoration: none;
   position: relative;
   text-align: center;
+  background-color: var(--green-color);
 }
 
 .main__discount__button__box {
