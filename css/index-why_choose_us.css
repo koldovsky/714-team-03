@@ -1,10 +1,12 @@
 .company__benefits {
-    background-image: url(../img/background-block3.webp);
+    background: linear-gradient(rgba(39, 37, 35, 0.7), rgba(39, 37, 35, 0.7)), url(../img/background-block3.webp);
     padding: 80px 0px;
 }
 
 .why__choose__us {
     padding: 0px 24px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .why__choose__us__title {
@@ -28,7 +30,8 @@
 }
 
 .preferences {
-    margin-top: 30px;
+    margin: 30px auto;
+    padding: 0;
 }
 
 .why__choose__us__images {
@@ -51,11 +54,65 @@
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 27.2px;
     font-style: normal;
     letter-spacing: 0;
     text-transform: none;
     vertical-align: baseline;
     text-align: center;
     margin-top: 20px;
+}
+
+@media (min-width: 480px) {
+    .company__benefits,
+    .why__choose__us__title {
+        position: relative;
+    }
+
+    .preferences {
+        margin-top: 45px;
+        max-width: 1200px;
+    }
+
+}
+
+@media (min-width: 800px) {
+    .preferences {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 75%;
+        padding: 0px 15px;
+    }
+
+
+    .why__choose__us {
+        padding: 0px 32px;
+    }
+
+    .why__choose__us__title{
+        line-height: 55.2px;
+        font-size: 46px;
+    }
+
+    .why__choose__us__images{
+        width: 70px;
+    }
+}
+
+@media (min-width: 990px) {
+    .why__choose__us {
+        padding: 0px 40px;
+    }
+
+    .why__choose__us__images{
+        width: 70px;
+    }
+
+    .why__choose__us__title{
+        font-size: 54px;
+    }
+
+    .preferences{
+        max-width: 100%;
+    }
 }

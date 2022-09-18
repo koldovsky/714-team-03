@@ -1,45 +1,78 @@
-
 .discount {
-    position: relative;
+  position: relative;
 }
 
-.main__discount__title {
-    color: var(--white-color);
-    font-family: Playfair Display,serif;
-    font-size: 54px;
-    font-weight: 700;
-    width: 400px;
+.discount__beckgrount {
+  margin: 0 auto;
+  padding: 60px 24px;
+  position: static;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(26, 27, 32, 0.8),
+      rgba(26, 27, 32, 0.8)
+    ),
+    url(../img/scisers.webp);
+}
+
+.main__discount__title__box {
+  padding: 0ch 0px 60px;
+  color: var(--white-color);
+  text-align: center;
+  font-size: 36px;
+  font-stretch: 100%;
+  font-family: Playfair Display, serif;
+  font-style: normal;
+  font-weight: 700;
+  overflow-wrap: break-word;
+  width: 100%;
+  padding: 10px;
+}
+
+.main__discount__title__box:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 45px;
+  margin: auto;
+  background-color: var(--green-color);
+}
+
+.main__discount__button__box {
+  text-align: center;
+  padding: 50px;
+}
+
+.main__discount__text__box {
+  margin: 10px;
 }
 
 .main__discount__text {
-    color: var(--white-color);
+  color: var(--white-color);
+  text-align: center;
 }
 
 .main__discount__button {
-    color: var(--white-color);
+  color: var(--white-color);
+  text-decoration: none;
 }
 
-.main__discount__button {
-    text-decoration: none;
-
+.main__discount__button__box {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 13px;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 8px 30px;
+  vertical-align: top;
+  border: 3px solid var(--green-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  background-color: var(--green-color);
 }
 
-.main__discount__text{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+.main__discount__text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
-
-.main__discount__button {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    text-align: center;
-
-}
-/**Added temporary background-color. Remove when styling backgrounds below this line below this line**/
-
-.main__discount {
-    background-color: black;
-
-}
-
-/**...above this line**/

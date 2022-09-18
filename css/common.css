@@ -16,3 +16,7 @@
     --title-brown-color: #323232;
     --input-bg-color: #e5e4e4;
 }
+
+.container{
+    max-width: 1150px;
+}

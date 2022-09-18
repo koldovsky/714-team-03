@@ -1,4 +1,5 @@
 @import url(common.css);
+@import url(hairstyles.css);
 @import url(gallery.css);
 @import url(index-why_choose_us.css);
 @import url(studiscount.css);
@@ -10,3 +11,5 @@
 @import url(our-products.css);
 @import url(blog.css);
 @import url(testimonials.css);
+@import url(testimonials.css);
+@import url(awards.css);

@@ -99,16 +99,19 @@
 
     <!-- Avstanchykov Igor  WELCOME TO OUR BARBERSHOP  -->
     <section class="welcome__to__barbershop">
-        <div class="welcome__image">
-            <img src="img/welcome-to-us.jpg" alt="Barber with client">
-        </div>
-        <div class="welcome__textblock">
-            <h2>Welcome to Our Barbershop!</h2>
-            <hr>
-            <p>Looking for a professional men’s hair care? Don't pass by, you are in the right place! Our Professional
-                and talented staff offers excellent services in the comfort of our relaxing atmosphere. Come get a
-                unique barbershop experience!</p>
-            <a href="#">MORE ABOUT US</a>
+        <div class="container">
+            <div class="welcome__image">
+                <img src="img/welcome-to-us.jpg" alt="Barber with client">
+            </div>
+            <div class="welcome__textblock">
+                <h2>Welcome to Our Barbershop!</h2>
+                <hr>
+                <p>Looking for a professional men’s hair care? Don't pass by, you are in the right place! Our
+                    Professional
+                    and talented staff offers excellent services in the comfort of our relaxing atmosphere. Come get a
+                    unique barbershop experience!</p>
+                <a id="welcome__button" href="#">MORE ABOUT US</a>
+            </div>
         </div>
     </section>
 
@@ -139,64 +142,91 @@
 
     <!-- STUDENT DISCOUNT -->
     <div class="discount">
-        <section class="main__discount">
-            <h2 class="main__discount__title">Student Discount</h2>
-            <p class="main__discount__text">Tommy Barbershop offers $10 OFF discount on haircuts for students with ID
-                card.</p>
-            <a class="main__discount__button" href="#on-make-an-appointment">MAKE AN APPOINTMENT</a>
-        </section>
+        <div class="discount__beckgrount">
+            <section class="main__discount">
+                <div class="main__discount__title__box">
+                    <h2 class="main__discount__title">Student Discount</h2>
+                </div>
+                <div class="main__discount__text__box">
+                    <p class="main__discount__text">
+                        Tommy Barbershop offers $10 OFF discount on haircuts for students with
+                        ID card.
+                    </p>
+                </div>
+                <div class="main__discount__button__box">
+                    <a class="main__discount__button" href="#on-make-an-appointment">MAKE AN APPOINTMENT</a>
+                </div>
+            </section>
+        </div>
     </div>
 
     <!-- TRADITIONAL BARBERSHOP -->
     <div class="traditional">
         <section class="main__traditional">
-            <h2 class="main__traditional__title">Traditional Barbershop EST. 1999</h2>
-            <img class="main__traditional__image" src="img/barber_cuts_mustache_section_traditional.jpg"
-                alt="Barber cuts mustache" height="272">
+            <div class="main__traditional__title__box">
+                <h2 class="main__traditional__title">
+                    Traditional Barbershop EST. 1999
+                </h2>
+            </div>
+            <div class="main__traditional__image__box">
+                <img class="main__traditional__image" src="img/barber_cuts_mustache_section_traditional.png"
+                    alt="Barber cuts mustache" />
+            </div>
         </section>
     </div>
 
     <!-- AWARDS  (Iryna Serhiienko)-->
     <section class="awards">
         <div class="awards__header">
-            <div class="awards_title">
-                <h2>Awards</h2>
-            </div>
-            <div class="awards__underline">
-                <hr>
-            </div>
+            <h2>Awards</h2>
         </div>
         <div class="awards__row">
             <div class="awards__column">
                 <div class="awards__img">
-                    <img src="img/best-barbershop-in-sanfrancisco.jpg" alt="best-barbershop-in-sanfrancisco">
+                    <img class="awards__image" src="img/best-barbershop-in-sanfrancisco.jpg"
+                        alt="best-barbershop-in-sanfrancisco">
                 </div>
                 <div class="awards__text">
-                    <span>Best Barbershop in San Francisco</span>
+                    <span>Best Barbershop</span>
+                </div>
+                <div class="awards__text">
+                    <span>in San Francisco</span>
                 </div>
             </div>
             <div class="awards__column">
                 <div class="awards__img">
-                    <img src="img/modern-barber-awards-finalist-2018.jpg" alt="modern-barber-awards-finalist-2018">
+                    <img class="awards__image" src="img/modern-barber-awards-finalist-2018.jpg"
+                        alt="modern-barber-awards-finalist-2018">
                 </div>
                 <div class="awards__text">
-                    <span>Modern Barber Awards Finalist 2018</span>
+                    <span>Modern Barber Awards</span>
+                </div>
+                <div class="awards__text">
+                    <span>Finalist 2018</span>
                 </div>
             </div>
             <div class="awards__column">
                 <div class="awards__img">
-                    <img src="img/barbershop-grandmaster-trophy.jpg" alt="barbershop-grandmaster-trophy">
+                    <img class="awards__image" src="img/barbershop-grandmaster-trophy.jpg"
+                        alt="barbershop-grandmaster-trophy">
                 </div>
                 <div class="awards__text">
-                    <span>Barbershop Grandmaster Trophy</span>
+                    <span>Barbershop</span>
+                </div>
+                <div class="awards__text">
+                    <span>Grandmaster Trophy</span>
                 </div>
             </div>
             <div class="awards__column">
                 <div class="awards__img">
-                    <img src="img/premier-salon-for-gentlemen.jpg" alt="premier-salon-for-gentlemen">
+                    <img class="awards__image" src="img/premier-salon-for-gentlemen.jpg"
+                        alt="premier-salon-for-gentlemen">
                 </div>
                 <div class="awards__text">
-                    <span>Premier Salon for Gentlemen</span>
+                    <span>Premier Salon</span>
+                </div>
+                <div class="awards__text">
+                    <span>for Gentlemen</span>
                 </div>
             </div>
         </div>
@@ -204,69 +234,109 @@
 
     <!-- GALLERY -->
     <div class="gallery">
+        <header class="gallery__header">
+            <div class="gallery__header__box">
+                <span class="gallery__header__text__box">
+                    <h2 class="gallery__header__text__content">Gallery</h2>
+                </span>
+            </div>
+        </header>
         <section class="gallery__main">
-            <h2 class="gallery__main__title">Gallery</h2>
-            <ul class="gallery__main__images">
-                <li><img src="img/beaver-standing-gallery1.png" alt="Beaver standing" height="215" width="283"></li>
-                <li><img src="img/man-repairs-motorcycle-gallery2.jpg" alt="Man repairs motorcycle" height="215"
-                        width="283">
-                </li>
-                <li><img src="img/man-touches-hair-gallery3.jpg" alt="Man touches hair"></li>
-                <li><img src="img/barber-cuts-beard-gallery4.jpg" alt="Barber cuts beard"></li>
-                <li><img src="img/bearded-man-leans-on-bicycle-gallery5.jpg" alt="Bearded man leans on bicycle"></li>
-                <li><img src="img/bearded-man-with-cup-smiles-gallery6.jpg" alt="Bearded man with cup smiles"></li>
-            </ul>
+            <div class="gallery__main__images__box">
+                <div class="gallery__main__image">
+                    <img src="img/beaver-standing-gallery1.png" class="gallery__main__image__photo"
+                        alt="Beaver standing" />
+                </div>
+                <div class="gallery__main__image">
+                    <img src="img/man-repairs-motorcycle-gallery2.png" class="gallery__main__image__photo"
+                        alt="Man repairs motorcycle" />
+                </div>
+                <div class="gallery__main__image">
+                    <img src="img/man-touches-hair-gallery3.png" class="gallery__main__image__photo"
+                        alt="Man touches hair" />
+                </div>
+                <div class="gallery__main__image">
+                    <img src="img/barber-cuts-beard-gallery4.png" class="gallery__main__image__photo"
+                        alt="Barber cuts beard" />
+                </div>
+                <div class="gallery__main__image">
+                    <img src="img/bearded-man-leans-on-bicycle-gallery5.png" class="gallery__main__image__photo"
+                        alt="Bearded man leans on bicycle" />
+                </div>
+                <div class="gallery__main__image">
+                    <img src="img/bearded-man-with-cup-smiles-gallery6.png" class="gallery__main__image__photo"
+                        alt="Bearded man with cup smiles" />
+                </div>
+            </div>
         </section>
     </div>
 
     <!-- WE ARE ALWAYS ARTEM KOZHUSHKIN -->
     <section class="we-always-block">
 
-        <div class="we-always-block">
-            <h2 class="we-block-text">
-                <span class="we-text">
-                    <span class="text">We are always in search of new</span>
-                </span>
-                <span class="we-text">
-                    <span class="text">talented individuals to join our team.</span>
-                </span>
-                <hr>
-            </h2>
+        <div class="we-always">
 
-            <p class="Check-our-text">Check our open vacancies</p>
+            <span class="we-text">
+                <div class="text-block">
+                    <span class="text">We are always in search of new</span>
+            </span>
+            <br>
+            <span class="we-text">
+                <span class="talented">talented individuals to join our team.</span>
+            </span>
+        </div>
+        <br>
+        <div class="line"></div>
+        <br>
+        <p class="check-text">Check our open vacancies</p>
         </div>
 
         <div class="see-open-button">
-            <span class="open-button">SEE OPEN VACANCIES</span>
+            <button type="bitton" name="button" value="SEE OPEN VACANCIES" class="open-button">SEE OPEN
+                VACANCIES</button>
         </div>
     </section>
 
 
     <!-- PARTNERS   ARTEM KOZHUSHKIN-->
-    <section class="partners__block">
-        <div class="partners__block">
-            <span class="text__partners">Partners</span>
-            <hr>
+    <section class="partners-block">
+        <div class="inline-partners-block">
+
+            <div class="text-line-block">
+                <span class="text-partners">Partners</span>
+                <div class="line_two"></div>
+            </div>
+
+            <div class="image-block">
+                <div class="image">
+                    <img src="img/barbam.png" alt="Barbam">
+                </div>
+
+                <div class="image">
+                    <img src="img/reuzel.png" alt="Reuzel">
+                </div>
+
+                <div class="image">
+                    <img src="img/jagermaister.png" alt="Jagermaister">
+                </div>
+
+                <div class="image">
+                    <img src="img/manly club.png" alt="Mainly club">
+                </div>
+
+                <div class="image">
+                    <img src="img/uppercut.png" alt="Uppercut">
+                </div>
+
+                <div class="image">
+                    <img src="img/coca-cola.png" alt="Coca-cola">
+                </div>
+            </div>
         </div>
-        <div>
-            <img src="img/barbam.png" alt="Barbam">
-        </div>
-        <div>
-            <img src="img/reuzel.png" alt="Reuzel">
-        </div>
-        <div>
-            <img src="img/jagermaister.png" alt="Jagermaister">
-        </div>
-        <div>
-            <img src="img/manlyclub.png" alt="Mainly-club">
-        </div>
-        <div>
-            <img src="img/uppercut.png" alt="Uppercut">
-        </div>
-        <div>
-            <img src="img/coca-cola.png" alt="Coca-cola">
+
         </div>
     </section>
+
 
 
     <!-- Volodymyr Komarnytskyi OUR PRODUCTS  -->
