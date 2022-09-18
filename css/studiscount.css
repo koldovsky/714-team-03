@@ -2,14 +2,16 @@
   position: relative;
 }
 
-.discount__beckground {
+.discount__beckgrount {
+  margin: 0 auto;
+  padding: 60px 24px;
+  position: static;
+  width: 100%;
   background-image: linear-gradient(
       rgba(26, 27, 32, 0.8),
       rgba(26, 27, 32, 0.8)
     ),
     url(../img/scisers.webp);
-  background-clip: border-box;
-  padding: 100px;
 }
 
 .main__discount__title__box {
