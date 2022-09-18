@@ -2,15 +2,21 @@
   position: relative;
 }
 
-.discount__beckground {
-  background-image: url(../img/scisers.webp);
-  background-clip: border-box;
-  padding: 100px;
+.discount__beckgrount {
+  margin: 0 auto;
+  padding: 60px 24px;
+  position: static;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(26, 27, 32, 0.8),
+      rgba(26, 27, 32, 0.8)
+    ),
+    url(../img/scisers.webp);
 }
 
 .main__discount__title__box {
   padding: 0ch 0px 60px;
-  color: var(--title-brown-color);
+  color: var(--white-color);
   text-align: center;
   font-size: 36px;
   font-stretch: 100%;
@@ -58,7 +64,6 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   padding: 8px 30px;
-  display: inline-block;
   vertical-align: top;
   border: 3px solid var(--green-color);
   text-transform: uppercase;
