@@ -12,6 +12,7 @@
       rgba(26, 27, 32, 0.8)
     ),
     url(../img/scisers.webp);
+  background-attachment: fixed;
 }
 
 .main__discount__title__box {
