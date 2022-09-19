@@ -1,0 +1,224 @@
+.barbers_block {
+    width: 100%;
+    background-image: url(img/SOFTSERVE/Барберы/Фоновое\ для\ барберов.webp);
+    background-color: black;
+    padding: 80px 0px;
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.cover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 1;
+    opacity: 0.5;
+
+}
+
+.block_barber {
+    width: 1000px;
+    padding: 0px 70px 40px 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 211px;
+    border-top-width: 600px;
+    border-bottom-width: 600px;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    z-index: 2;
+}
+
+
+
+.barbers_text {
+    color: white;
+    font-size: 54px;
+    font-weight: 800;
+    text-align: center;
+    padding: 0px 0px 0px 10px;
+    display: block;
+    margin: 70px 40px 10px 80px;
+    z-index: 3;
+
+
+}
+
+.line {
+    width: 45px;
+    height: 2px;
+    background-color: #3FB386;
+    border: 0.5px solid #3FB386;
+    margin: 10px 10px 30px 490px;
+    display: block;
+    padding: 2px 60px 1px 5px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+
+.barbers_character_block {
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+}
+
+
+
+.master_block {
+    display: grid;
+    grid-template-rows: 200px;
+    grid-gap: 5px;
+    width: 361px;
+    height: 512px;
+    border-height: auto;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+    padding: 0px 10px 10px 10px;
+    margin: 50px 0px 0px 50px;
+}
+
+
+.barber_image {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    justify-self: center;
+}
+
+
+.master_text {
+    font-size: 24px;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    color: #272523;
+}
+
+.secondary_text {
+    font-size: 16px;
+    color: #3FB386;
+    font-family: Montserrat, sans-serif;
+
+}
+
+.lands_text {
+    font-size: 16px;
+    color: #757575;
+    font-family: Montserrat, sans-serif;
+}
+
+
+.bottom_text {
+    font-size: 16px;
+    color: #757575;
+    font-family: Montserrat, sans-serif;
+}
+
+
+
+
+
+
+
+.we-always-block {
+    background-image: url(img/we.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    width: 100%;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 90px 0px 90px 90px;
+    display: block;
+    font-weight: 800;
+    flex-basis: 100%;
+    box-sizing: border-box;
+    color: white;
+    scroll-behavior: smooth;
+    z-index: 1;
+    position: fixed;
+    position: relative;
+}
+
+.we-always-block:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    opacity: 0.5;
+}
+
+.text {
+    color: #FFFFFF;
+    font-size: 54px;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+
+}
+
+
+
+.talented {
+    color: #FFFFFF;
+    font-size: 54px;
+}
+
+.line {
+    border: 0.1px solid #3FB386;
+    width: 45px;
+    height: 2px;
+    background-color: #3FB386;
+    align-items: center;
+    display: inline-block;
+    padding: 5px 30px 0px 40px;
+    margin: auto;
+}
+
+
+
+.text-block {
+    padding: 25px 0px 0px 45px;
+}
+
+.see-open-button: {
+    width: 250px;
+    height: 50px;
+}
+
+.open-button {
+    width: 250;
+    height: 45px;
+    border: 1px solid transparent;
+    background-color: rgb(15, 157, 15);
+    font-size: 13px;
+    color: #FFFFFF;
+    margin: -10px;
+    box-sizing: border-box;
+    display: inline-block;
+    align-items: center;
+
+}
+
+.check-text {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    z-index: 2;
+}
