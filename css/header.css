@@ -3,13 +3,30 @@
 
 }
 
+.phone {
+    color: var(--green-color);
+}
+
+.phone:hover {
+    color: white;
+}
+
 .header__contacts {
     height: 45px;
+    margin: auto;
     display: flex;
+    justify-content: space-betsween;
     background-color: var(--black-color);
-    color: var(--green-color);
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+
 }
 
 .header__contacts span {
     color: var(--gray-color);
+}
+
+.menu a {
+    text-decoration: none;
 }
