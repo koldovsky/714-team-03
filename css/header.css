@@ -1,0 +1,8 @@
+.header{
+    width: 100%;
+
+}
+.header__contacts{
+    display: flex;
+    background-color: var(--black-color);
+}
