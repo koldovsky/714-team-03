@@ -41,6 +41,7 @@
 .main__discount__button__box {
   text-align: center;
   padding: 50px;
+  display: table;
 }
 
 .main__discount__text__box {
