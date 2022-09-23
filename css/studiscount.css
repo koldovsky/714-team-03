@@ -44,7 +44,7 @@
   display: table;
 }
 
-.main__discount__text__box {
+.main__discount__button__box .main__discount__text__box {
   margin: 10px;
 }
 
