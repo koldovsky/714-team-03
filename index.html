@@ -460,30 +460,34 @@
 
     <!-- BOOK AN APPOINTMENT -->
     <section class="booking">
-        <section class="booking__header">
-        <h2>Book an Appointment</h2>
-        </section>
-        <section class="booking__text">
-        <p>Want to get a perfect haircut? Just book an appointment and we'll contact you as soon as possible.</p>
-        </section>
-        <div class="booking__form">
-        <form action="https://formspree.io/f/xbjbdqvr" method="POST">
-            <div class="booking__form___field">
-              <input type="text" name="name" required placeholder="Name*">
+        <div class="booking__background">
+            <div class="booking__form__box">
+                <section class="booking__header">
+                    <h2>Book an Appointment</h2>
+                </section>
+                <section class="booking__text">
+                    <p>Want to get a perfect haircut? Just book an appointment and we'll contact you as soon as possible.</p>
+                </section>
+                <div class="booking__form">
+                    <form action="https://formspree.io/f/xbjbdqvr" method="POST">
+                        <div class="booking__form___field">
+                            <input type="text" name="name" required placeholder="Name*">
+                        </div>
+                        <div class="booking__form___field">
+                            <input type="tel" name="phone-number" required placeholder="Phone nomber*">
+                        </div>
+                        <div class="booking__form___field">
+                            <input type="email" name="email" required placeholder="Email*">
+                        </div>
+                        <div class="booking__form___field">
+                            <input type="text" name="location" required placeholder="Location">
+                        </div>
+                        <div class="booking__form__button">
+                            <button type="submit">Book an appointment</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="booking__form___field">
-              <input type="tel" name="phone-number" required placeholder="Phone nomber*">
-            </div>
-            <div class="booking__form___field">
-              <input type="email" name="email" required placeholder="Email*">
-            </div>
-            <div class="booking__form___field">
-              <input type="text" name="location" required placeholder="Location">
-            </div>
-            <div class="booking__form__button">
-            <button type="submit">Book an appointment</button>
-            </div>
-        </form>
         </div>
     </section>
 
