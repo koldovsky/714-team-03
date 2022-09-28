@@ -38,6 +38,3 @@
         }, 300);
     }
 })();
-
-
-event.preventDefault();
