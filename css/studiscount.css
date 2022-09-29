@@ -1,5 +1,6 @@
 .discount {
   position: relative;
+  margin: auto;
 }
 
 .discount__beckgrount {
@@ -15,8 +16,8 @@
   background-attachment: fixed;
 }
 
-.main__discount__title__box {
-  padding: 0ch 0px 60px;
+.main__discount__title {
+  padding: 0ch 0px 10px;
   color: var(--white-color);
   text-align: center;
   font-size: 36px;
@@ -24,9 +25,15 @@
   font-family: Playfair Display, serif;
   font-style: normal;
   font-weight: 700;
-  overflow-wrap: break-word;
-  width: 100%;
-  padding: 10px;
+
+  transform: translate(0px, 100%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+
+.main__discount__title._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
 }
 
 .main__discount__title__box:after {
@@ -42,6 +49,7 @@
   text-align: center;
   padding: 50px;
   display: table;
+  margin: auto;
 }
 
 .main__discount__text__box {

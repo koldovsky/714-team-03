@@ -43,6 +43,7 @@
   margin-top: 45px;
   padding: 25px;
   display: flex;
+  margin: auto;
 }
 
 .main__traditional__image {
