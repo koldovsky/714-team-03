@@ -1,4 +1,23 @@
-let comments = [];
+(function () {
+  const clockContainer = document.querySelector(
+    ".testimonials__clockContainer-clock"
+  );
+
+  function updateCLock() {
+    clockContainer.innerText = new Date().toLocaleTimeString();
+  }
+
+  setInterval(updateCLock, 1000);
+})();
+
+(function () {
+  const zoom = document.querySelector(
+    ".testimonials__zoomContainer-zoom"
+  );
+  
+})();
+
+/* let comments = [];
 loadComments();
 
 document.getElementById("comment-add").onclick = function () {
@@ -69,3 +88,4 @@ function timeConverter(UNIX_timestamp) {
     date + " " + month + " " + year + " " + hour + ":" + min + ":" + sec;
   return time;
 }
+ */
