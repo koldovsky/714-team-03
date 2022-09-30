@@ -7,29 +7,27 @@
     background-size: cover;
     align-items: center;
     text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding: 60px 0px 80px;
+    background-attachment: fixed;
+    padding: 100px 100px 180px 150px;
     display: block;
     font-weight: 800;
     flex-basis: 100%;
     box-sizing: border-box;
     color: white;
     scroll-behavior: smooth;
-    z-index:1;
-    position:fixed;
-    position:relative;
+    z-index: 1;
+    position: relative;
 }
 
-.we-always-block:after{
+.we-always-block:after {
     content: '';
-    position:absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     right: 0;
-    bottom:0;
+    bottom: 0;
     background: rgba(0, 0, 0, .5);
-    opacity:0.5;
+    opacity: 0.9;
+    position: absolute;
 }
 
 .text {
@@ -37,7 +35,10 @@
     font-size: 54px;
     font-weight: 800;
     font-family: "Playfair Display", serif;
-
+    z-index: 2;
+    position: relative;
+    padding: 20px 20px 30px 80px;
+    margin: 0px 150px 0px 0px;
 }
 
 
@@ -45,25 +46,37 @@
 .talented {
     color: #FFFFFF;
     font-size: 54px;
+    z-index: 2;
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 150px 0px 0px;
 }
 
-.line {
+.line_two {
     border: 0.1px solid #3FB386;
     width: 45px;
     height: 2px;
     background-color: #3FB386;
     align-items: center;
-    display: inline-block;
+    margin: 30px 0px 20px 1000px;
+    padding: 3px 70px 0px 0px;
+    z-index: 2;
+    position: relative;
 }
+
 
 
 .text-block {
     padding: 25px 0px 0px 45px;
+    z-index: 4;
+
 }
 
 .see-open-button: {
     width: 250px;
     height: 50px;
+    z-index: 4;
+
 }
 
 .open-button {
@@ -73,21 +86,25 @@
     background-color: rgb(15, 157, 15);
     font-size: 13px;
     color: #FFFFFF;
-    margin: -10px;
+    margin: 0px 150px 0px 0px;
     box-sizing: border-box;
     display: inline-block;
     align-items: center;
+    z-index: 4;
+    position: relative;
+    margin: 30px 17image.png0px 0px 0px;
 
 }
 
 .check-text {
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     padding: 15px;
     z-index: 2;
+    position: relative;
+    margin: 0px 150px 0px 0px;
 }
-
 
 .partners-block {
     width: 100%;
