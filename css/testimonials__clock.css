@@ -1,0 +1,9 @@
+.testimonials__clockContainer {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.testimonials__clockContainer-clock {
+  font-size: 30px;
+}
