@@ -4,7 +4,7 @@
     background-color: black;
     padding: 130px 0px;
     flex-wrap: wrap;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -143,6 +143,7 @@
     background-size: cover;
     align-items: center;
     text-align: center;
+    background-attachment: fixed;
     padding: 100px 100px 180px 150px;
     display: block;
     font-weight: 800;
