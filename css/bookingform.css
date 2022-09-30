@@ -160,3 +160,7 @@ input:-internal-autofill-selected {
   font-weight: 700;
   background-color: var(--green-color);
 }
+
+#contact-form-status {
+  color: white;
+}
