@@ -1,6 +1,6 @@
 .barbers_block {
     width: 100%;
-    background-image: url(img/SOFTSERVE/Барберы/fone.webp);
+    background-image: url(../img/fone.webp);
     background-color: black;
     padding: 130px 0px;
     flex-wrap: wrap;
@@ -135,7 +135,7 @@
 
 
 .we-always-block {
-    background-image: url(img/we.webp);
+    background-image: url(../img/we.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
