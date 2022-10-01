@@ -2,13 +2,13 @@
     width: 100%;
     background-image: url(../img/fone.webp);
     background-color: black;
-    padding: 80px 0px;
-    padding-bottom: 80px;
+    padding: 130px 0px;
     flex-wrap: wrap;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
 
 }
 
@@ -21,21 +21,23 @@
     bottom: 0;
     background: rgba(0, 0, 0, .5);
     z-index: 1;
-    opacity: 0.5;
+
+
 
 }
 
 .block_barber {
     width: 1000px;
-    padding: 0px 70px 40px 30px;
+    padding: 70px 50px 40px 30px;
+    margin: auto;
     align-items: center;
     justify-content: center;
-    margin: 0px 211px;
     border-top-width: 600px;
     border-bottom-width: 600px;
     border-top: 0.5px solid white;
     border-bottom: 0.5px solid white;
-    z-index: 2;
+    z-index: 1;
+
 }
 
 
@@ -45,11 +47,10 @@
     font-size: 54px;
     font-weight: 800;
     text-align: center;
-    padding: 0px 0px 0px 10px;
-    display: block;
-    margin: 70px 40px 10px 80px;
-    z-index: 3;
-
+    padding: 40px 20px 10px 320px;
+    margin: 0px 150px 0px 0px;
+    z-index: 2;
+    position: relative;
 
 }
 
@@ -58,41 +59,44 @@
     height: 2px;
     background-color: #3FB386;
     border: 0.5px solid #3FB386;
-    margin: 10px 10px 30px 490px;
-    display: block;
-    padding: 2px 60px 1px 5px;
-    box-sizing: border-box;
-    z-index: 1;
+    margin: 30px 0px 20px 365px;
+    padding: 3px 70px 0px 0px;
+    z-index: 2;
+    position: relative;
+
 }
 
 
 .barbers_character_block {
     width: 100%;
     display: grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 0px 30px 0px;
+
+
 }
 
 
 
 .master_block {
     display: grid;
-    grid-template-rows: 200px;
     grid-gap: 5px;
     width: 361px;
-    height: 512px;
+    height: 400px;
     border-height: auto;
     border: 1px solid black;
     align-items: center;
     text-align: center;
-    padding: 0px 10px 10px 10px;
-    margin: 50px 0px 0px 50px;
+    padding: 10px 0px 150px 0px;
+    margin: 30px 50px 0px 150px;
 }
 
 
 .barber_image {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
+    width: 190px;
+    height: 200px;
+    border-radius: 100%;
     justify-self: center;
 }
 
@@ -139,9 +143,8 @@
     background-size: cover;
     align-items: center;
     text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding: 90px 0px 90px 90px;
+    background-attachment: fixed;
+    padding: 100px 100px 180px 150px;
     display: block;
     font-weight: 800;
     flex-basis: 100%;
@@ -149,19 +152,18 @@
     color: white;
     scroll-behavior: smooth;
     z-index: 1;
-    position: fixed;
     position: relative;
 }
 
 .we-always-block:after {
     content: '';
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, .5);
-    opacity: 0.5;
+    opacity: 0.9;
+    position: absolute;
 }
 
 .text {
@@ -169,7 +171,10 @@
     font-size: 54px;
     font-weight: 800;
     font-family: "Playfair Display", serif;
-
+    z-index: 2;
+    position: relative;
+    padding: 20px 20px 30px 80px;
+    margin: 0px 150px 0px 0px;
 }
 
 
@@ -177,28 +182,37 @@
 .talented {
     color: #FFFFFF;
     font-size: 54px;
+    z-index: 2;
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 150px 0px 0px;
 }
 
-.line {
+.line_two {
     border: 0.1px solid #3FB386;
     width: 45px;
     height: 2px;
     background-color: #3FB386;
     align-items: center;
-    display: inline-block;
-    padding: 5px 30px 0px 40px;
-    margin: auto;
+    margin: 30px 0px 20px 1000px;
+    padding: 3px 70px 0px 0px;
+    z-index: 2;
+    position: relative;
 }
 
 
 
 .text-block {
     padding: 25px 0px 0px 45px;
+    z-index: 4;
+
 }
 
 .see-open-button: {
     width: 250px;
     height: 50px;
+    z-index: 4;
+
 }
 
 .open-button {
@@ -208,17 +222,28 @@
     background-color: rgb(15, 157, 15);
     font-size: 13px;
     color: #FFFFFF;
-    margin: -10px;
+    margin: 0px 150px 0px 0px;
     box-sizing: border-box;
     display: inline-block;
     align-items: center;
+    z-index: 4;
+    position: relative;
+    margin: 30px 17image.png0px 0px 0px;
 
 }
 
 .check-text {
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     padding: 15px;
     z-index: 2;
+    position: relative;
+    margin: 0px 150px 0px 0px;
+}
+
+
+#countdown {
+
+    color: red;
 }

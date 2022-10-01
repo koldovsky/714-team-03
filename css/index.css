@@ -12,5 +12,7 @@
 @import url(our-products.css);
 @import url(blog.css);
 @import url(testimonials.css);
+@import url(testimonials__clock.css);
+@import url(testimonials__contact-form-formspree.css);
 @import url(awards.css);
 @import url(bookingform.css);
