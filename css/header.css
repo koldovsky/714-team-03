@@ -25,6 +25,47 @@
     color: var(--gray-color);
 } */
 
+.header__contacts {
+    display: none;
+}
+
+.header__box {
+    background: var(--black-color);
+}
+
+.menu {
+    display: none;
+}
+
+.menu-button {
+    width: 1.5rem;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    cursor: pointer;
+    height: calc(0.25rem * 5);
+    margin: 10px 20px 0px 0px;
+    z-index: 900;
+}
+
+.menu-button span {
+    width: 30px;
+    height: 2px;
+    background-color: var(--white-color);
+    display: block;
+    position: absolute;
+    transition: all 0.6s ease;
+}
+
+.menu-button span:nth-of-type(2) {
+    top: calc(0.25rem * 2);
+}
+
+
+.menu-button span:nth-of-type(3) {
+    top: calc(0.25rem * 4);
+}
+
 .main {
     background: linear-gradient(rgba(26, 27, 32, 0.7), rgba(26, 27, 32, 0.7)), url(../img/background_block1.webp) 50.94% 13.58% / cover no-repeat;
     color: var(--white-color);
