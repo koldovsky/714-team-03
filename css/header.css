@@ -1,4 +1,6 @@
-
+.header, .main{
+    margin: 0;
+}
 /* .phone {
     color: var(--green-color);
 }
@@ -28,12 +30,12 @@
     color: var(--white-color);
 }
 
-.main .main__section {
-    padding: 130px 24px;
+.main__section {
+    padding: 130px 15px;
 }
 
 .main__header {
-    font-size: 58px;
+    font-size: 52px;
     font-family: Playfair Display, serif;
     font-weight: 700;
     line-height: 1.3;
