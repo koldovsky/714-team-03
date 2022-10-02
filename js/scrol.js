@@ -32,5 +32,5 @@
 
         setInterval(() => {
             animOnScroll();
-        }, 300);
+        }, 2000);
     }
