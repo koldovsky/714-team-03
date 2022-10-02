@@ -1,5 +1,9 @@
+@import url(css/common.css);
+
+
+
 .we-always-block {
-    background-image: url(../img/we.webp);
+    background-image: url(img/we.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
@@ -7,8 +11,7 @@
     background-size: cover;
     align-items: center;
     text-align: center;
-    background-attachment: fixed;
-    padding: 100px 100px 180px 150px;
+    padding: 100px 0;
     display: block;
     font-weight: 800;
     flex-basis: 100%;
@@ -28,6 +31,7 @@
     background: rgba(0, 0, 0, .5);
     opacity: 0.9;
     position: absolute;
+
 }
 
 .text {
@@ -37,8 +41,9 @@
     font-family: "Playfair Display", serif;
     z-index: 2;
     position: relative;
-    padding: 20px 20px 30px 80px;
-    margin: 0px 150px 0px 0px;
+    margin: auto;
+    text-align: center;
+
 }
 
 
@@ -48,8 +53,8 @@
     font-size: 54px;
     z-index: 2;
     position: relative;
-    padding: 10px 10px 10px 10px;
-    margin: 0px 150px 0px 0px;
+    margin: auto;
+    text-align: center;
 }
 
 .line_two {
@@ -58,10 +63,11 @@
     height: 2px;
     background-color: #3FB386;
     align-items: center;
-    margin: 30px 0px 20px 1000px;
     padding: 3px 70px 0px 0px;
-    z-index: 2;
+    margin: auto;
+    z-index: 5;
     position: relative;
+    display: inline-block;
 }
 
 
@@ -69,6 +75,7 @@
 .text-block {
     padding: 25px 0px 0px 45px;
     z-index: 4;
+    margin: auto;
 
 }
 
@@ -76,7 +83,6 @@
     width: 250px;
     height: 50px;
     z-index: 4;
-
 }
 
 .open-button {
@@ -92,7 +98,8 @@
     align-items: center;
     z-index: 4;
     position: relative;
-    margin: 30px 17image.png0px 0px 0px;
+    margin: 30px 0;
+
 
 }
 
@@ -103,22 +110,29 @@
     padding: 15px;
     z-index: 2;
     position: relative;
-    margin: 0px 150px 0px 0px;
+    margin: 30px 0;
 }
+
+
+
+
+
 
 .partners-block {
+
     width: 100%;
-    display: inline-flex;
-    height:450px;
-    background-color:#f9f5f5;
+    display: inline-block;
+    gap: 15px;
+    padding: 80px 0px 100px 0px;
+    background-color: #f9f5f5;
+    margin: auto;
 }
 
+
 .text-line-block {
-    width: auto;
-    padding: 15px 10px 0px 105x;
-    margin: 0px 226px;
+    margin: auto;
+
     text-align: center;
-    align-items: center;
 }
 
 .text-partners {
@@ -126,10 +140,8 @@
     font-size: 54px;
     color: #272523;
     font-family: "Playfair Display", serif;
-    padding: 30px 0px 0px 100px;
-    display: block;
-    justify-self: center;
-    text-align: center;
+
+
 }
 
 
@@ -139,34 +151,28 @@
     height: 2px;
     border: 0.1px solid #3FB386;
     background-color: #3FB386;
-    display: inline-block;
     padding: 1px 1px 0px 10px;
-    margin: 10px 0px 10px 90px;
+    margin: auto;
+    display: block;
 }
-
-
 
 
 .image-block {
+    gap: 25px;
+    padding: 45px;
+    justify-content: center;
     display: flex;
-    width: 100%;
-    height: auto;
-    grid-gap: 45px;
-    padding: 0px 40px;
+    flex-wrap: wrap;
+    margin:auto;
+    width:auto;
     align-items: center;
-    justify-self: center;
-    object-fit: cover;
-    box-sizing: border-box;
-    margin: 55px 10px 10px 50px;
+    
 }
 
-.image {
-    margin: auto;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    justify-self: center;
+
+.image { 
+    gap: 5px;
+    align-items: center;
     border: 1px solid black;
     background-color: white;
-    z-index: 1;
 }
