@@ -85,7 +85,9 @@
     height: 46.02px;
     border: 1px solid transparent;
     background-color: #3FB386;
-    font-size: 10px;
+    font-size: 9px;
+    font-weight:700;
+    word-wrap: break-word;
     font-family: "Montserrat", sans-serif;
     color: #FFFFFF;
     text-align: center;
