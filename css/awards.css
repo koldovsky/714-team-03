@@ -16,6 +16,10 @@
     overflow-wrap: break-word;
 }
 
+.awards__title {
+    margin: 15px 0;
+}
+
 .awards__header:after {
     content: "";
     display: block;
