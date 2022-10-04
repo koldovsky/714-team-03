@@ -14,7 +14,7 @@
     height: 45px;
     margin: auto;
     display: flex;
-    justify-content: space-betsween;
+    justify-content: space-between;
     background-color: var(--black-color);
     font-family: Montserrat, sans-serif;
     font-size: 12px;
@@ -36,15 +36,25 @@
     justify-content: space-between;
 }
 
-.menu {
+.networks__list a {
+    color: var(--white-color);
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-between;
     
 }
 .menu__ancor {
     text-decoration:none;
     color: var(--white-color);
     padding: 5px;
-    
-}
+    }
+
+    .networks__list{
+        display: flex;
+        justify-content: space-between;
+    }
 /*
 .menu-button {
     width: 1.5rem;
