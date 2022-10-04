@@ -1,40 +1,36 @@
-.welcome__to__barbershop{
-    text-align: left;
-    margin:auto 20px;
-}
-.welcome__textblock > h2{
-    font-size: 40px;
-    color: var(--black-color);
-    font-family: Playfair Display,serif;
-    font-weight: 700;
-    line-height: 1em;
+.welcome__to__barbershop {
+	text-align: left;
+	margin: 50px 20px;
 }
 
-
-.welcome__textblock > p{
-    font-size: 16px;
-    font-family: Montserrat,sans-serif;
-    font-weight: 400;
-    color: var(--black-color);
-    margin-top: 15px;
-    line-height: 1.8em;
+.welcome__textblock>h2 {
+	font-size: 40px;
+	font-family: "Playfair Display", serif;
+	font-weight: 700;
+	line-height: 1em;
 }
 
-.welcome__image{
-    width: 4vm;
-    margin: 20px auto;
+.welcome__textblock>p {
+	font-size: 16px;
+	font-family: Montserrat, sans-serif;
+	font-weight: 400;
+	margin-top: 15px;
+	line-height: 1.8em;
 }
 
-.welcome__image > img{
-    width: 100%;
+.welcome__image {
+	margin: 20px auto;
 }
 
-.welcome__textblock > hr{
-    width: 45px;
-    height: 3px;
-    background-color: var(--green-color);
-    margin-top: 10px;
-    margin-left: 0;
+.welcome__image>img {
+	width: 100%;
+}
+
+.welcome__textblock>hr {
+	width: 45px;
+	height: 3px;
+	margin-top: 10px;
+	margin-left: 0;
 }
 
 #welcome__button {
@@ -47,23 +43,31 @@
     margin: 20px auto 30px 0;
     width: fit-content;
 }
+
 #welcome__button:hover {
     background-color: var(--green-color);
     color: var(--white-color); 
 }
 
-@media (min-width: 770px){
-    .welcome__to__barbershop > .container{
-        display: flex;
-        
-    }
-    .welcome__image{
-        width: 350px;
-        margin-right: 20px;
-    }
+@media (min-width: 770px) {
+	.welcome__to__barbershop>.container {
+		display: flex;
+	}
 
-    .welcome__image, .welcome__textblock {
-        flex-basis: 50%;
-    }
+	.welcome__image {
+		width: 350px;
+		margin-right: 20px;
+		margin-left: 50px;
+	}
 
+	.welcome__image,
+	.welcome__textblock {
+		flex-basis: 50%;
+	}
+}
+
+@media (min-width: 950px) {
+	.welcome__textblock {
+		margin-top: 40px;
+	}
 }
