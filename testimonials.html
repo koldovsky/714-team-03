@@ -96,11 +96,13 @@
         </div>
         <div class="testimonials__row">
           <div class="testimonials__column-photo">
-            <img
-              class="testimonials__img"
-              src="img/testimonial-frank.jpg"
-              alt="testimonial-frank"
-            />
+            <a href="#popup" class="content__image popup-link">
+                <img
+                class="testimonials__img"
+                src="img/testimonial-frank.jpg"
+                alt="testimonial-frank"
+                />
+            </a>
           </div>
           <div class="testimonials__column-content">
             <div class="testimonials__name">
@@ -124,6 +126,16 @@
           </div>
         </div>
       </div>
+      <div id="popup" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__image">
+                    <img src="img/testimonial-thomas.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
     </main>
     <footer id="contacts" class="footer-container">
       <!-- <h2>Contact <span class="ui-brand">Us</span></h2> -->
@@ -149,7 +161,7 @@
       </form> -->
       <p id="testimonials__contact-form-status"></p>
     </footer>
-
+    <script src="js/testimonials__popup.js" ></script>
     <script src="js/testimonials__clock.js"></script>
     <script src="js/testimonials__contact-form-formspree.js"></script>
   </body>
