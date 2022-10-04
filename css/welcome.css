@@ -29,6 +29,7 @@
 .welcome__textblock>hr {
 	width: 45px;
 	height: 3px;
+	background-color: var(--green-color);
 	margin-top: 10px;
 	margin-left: 0;
 }
