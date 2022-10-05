@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
 }
 
 .services__header_text>h2 {
@@ -15,10 +16,12 @@
     color: var(--white-color);
     font-family: Playfair Display, serif;
     line-height: 2.5;
+    text-align: center;
 }
 
 .services__header_text>hr {
     width: 70vw;
+    margin: auto;
 }
 
 .services__card__image {
