@@ -1,7 +1,8 @@
 .header, .main{
     margin: 0;
+    
 }
-/* .phone {
+ .phone {
     color: var(--green-color);
 }
 
@@ -13,7 +14,7 @@
     height: 45px;
     margin: auto;
     display: flex;
-    justify-content: space-betsween;
+    justify-content: space-between;
     background-color: var(--black-color);
     font-family: Montserrat, sans-serif;
     font-size: 12px;
@@ -23,20 +24,38 @@
 
 .header__contacts span {
     color: var(--gray-color);
-} */
-
+} 
+/*
 .header__contacts {
     display: none;
-}
+}*/
 
 .header__box {
     background: var(--black-color);
+    display: flex;
+    justify-content: space-between;
 }
 
-.menu {
-    display: none;
+.networks__list a {
+    color: var(--white-color);
 }
 
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu__ancor {
+    text-decoration:none;
+    color: var(--white-color);
+    padding: 5px;
+    }
+
+    .networks__list{
+        display: flex;
+        justify-content: space-between;
+    }
+/*
 .menu-button {
     width: 1.5rem;
     position: fixed;
@@ -46,6 +65,7 @@
     height: calc(0.25rem * 5);
     margin: 10px 20px 0px 0px;
     z-index: 900;
+
 }
 
 .menu-button span {
@@ -65,7 +85,7 @@
 .menu-button span:nth-of-type(3) {
     top: calc(0.25rem * 4);
 }
-
+*/
 .main {
     background: linear-gradient(rgba(26, 27, 32, 0.7), rgba(26, 27, 32, 0.7)), url(../img/background_block1.webp) 50.94% 13.58% / cover no-repeat;
     color: var(--white-color);

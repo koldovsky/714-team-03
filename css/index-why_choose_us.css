@@ -10,14 +10,17 @@
 }
 
 .why__choose__us__title {
+    position: relative;
     color: var(--white-color);
     text-align: center;
-    font-size: 38px;
+    font-size: 36px;
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 700;
     line-height: 1.2;
     padding-bottom: 10px;
+    margin: 0;
+    word-wrap: break-word;
 }
 
 .why__choose__us__title::after {
@@ -30,13 +33,14 @@
 }
 
 .preferences {
-    margin: 30px auto;
+    margin: 45px auto;
     padding: 0;
 }
 
 .why__choose__us__images {
     width: 50px;
     display: block;
+    margin: 0 auto;
 }
 
 
@@ -47,6 +51,7 @@
     position: relative;
     padding: 0px 15px;
     margin-top: 50px;
+    text-align: center;
 }
 
 .preferences__title {
@@ -64,9 +69,14 @@
 }
 
 @media (min-width: 480px) {
+
     .company__benefits,
     .why__choose__us__title {
         position: relative;
+    }
+
+    .why__choose__us__title {
+        font-size: 38px;
     }
 
     .preferences {
@@ -74,9 +84,32 @@
         max-width: 1200px;
     }
 
+    .preferences__title {
+        font-size: 22px;
+    }
+
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
+    .company__benefits {
+        padding: 80px 0px 95px 0px;
+    }
+
+    .preferences {
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 991px;
+    }
+
+
+    .why__choose__us__images {
+        width: 70px;
+    }
+}
+
+
+/* @media (min-width: 800px) {
     .preferences {
         display: flex;
         flex-wrap: wrap;
@@ -89,30 +122,30 @@
         padding: 0px 32px;
     }
 
-    .why__choose__us__title{
+    .why__choose__us__title {
         line-height: 55.2px;
         font-size: 46px;
     }
 
-    .why__choose__us__images{
+    .why__choose__us__images {
         width: 70px;
     }
-}
+} */
 
 @media (min-width: 990px) {
     .why__choose__us {
         padding: 0px 40px;
     }
 
-    .why__choose__us__images{
+    .why__choose__us__images {
         width: 70px;
     }
 
-    .why__choose__us__title{
+    .why__choose__us__title {
         font-size: 54px;
     }
 
-    .preferences{
+    .preferences {
         max-width: 100%;
     }
 }
