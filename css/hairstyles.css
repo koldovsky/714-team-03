@@ -11,7 +11,7 @@
     padding: 45px 0px;
 }
 
-hr {
+.hairstyles__block>hr {
     background-color: gray;
     opacity: 0.3;
 }
