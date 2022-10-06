@@ -1,3 +1,7 @@
+.container{
+    max-width:none;
+}
+
 .main_footer {
     background-color: black;
     width: 100%;
