@@ -1,0 +1,111 @@
+@import url="css/common.css";
+
+.container{
+    width:1150px;
+}
+
+
+.main_footer {
+    background-color: black;
+    width: 100%;
+    display: grid;
+}
+
+.logo {
+    width: 168px;
+    height: 64px;
+    display: block;
+    margin-left: 10px;
+}
+
+.footer_text {
+    color: white;
+    margin-left: 10px;
+}
+
+.phone {
+    color: aquamarine;
+    margin-left: 10px;
+}
+
+.menu_item {
+    color: white;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 0px 10px 50px;
+
+}
+
+.nav_menu {
+    display: flex;
+    margin-top: -90px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: auto;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin:auto;
+}
+
+.follow {
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+    margin-left: 1100px;
+    margin-top: -90px;
+}
+
+
+
+.social {
+    gap: 5px;
+    margin-left: 1100px;
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: -80px;
+}
+a:hover {
+    color: aquamarine;
+}
+
+a:hover :active {
+    color: blue;
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;  
+}
+
+
+.facebook {
+    width: 30px;
+    height: 30px;
+}
+
+.youtube {
+    width: 30px;
+    height: 30px;
+}
