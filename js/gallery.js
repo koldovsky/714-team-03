@@ -5,11 +5,11 @@ $(document).ready(function () {
   let second_name_img; // перехідна змінна для призначення правильного значення section_img
   let section_img;
 
-  let prev = 'gallery-photos__arrow-prev';
-  let next = 'gallery-photos__arrow-next';
-  let img = 'gallery-photos__center img';
+  let prev = 'galerry-photos__arrow-prev';
+  let next = 'galerry-photos__arrow-next';
+  let img = 'galerry-photos__center img';
 
-  $('.gallery-center div img').click(function () {
+  $('.gallery__main__images__box  div  img').click(function () {
     $('body').css('overflow', 'hidden');
 
     let src_img = $(this).attr('src'); // img/man-repairs-motorcycle-gallery2.png
@@ -23,41 +23,42 @@ $(document).ready(function () {
     if (name_img > 1) { $(prev).show(); }
     if (name_img < 6) { $(next).show(); }
 
-    $('.gallery-photos').fadeIn(300, function () {
-      $('.gallery-photos__blok').fadeIn(300);
+    $('.galerry-photos').fadeIn(300, function () {
+      $('.galerry-photos__block').fadeIn(300);
     });
 
   });
 
   $(prev).click(function () {
-    --name_img;
+    --section_img;
+    alert(section_img);
     if (name_img == 1) { $(prev).hide(); }
     if (name_img < 6) { $(next).show(); }
 
-    $(img).attr('src', 'img/' + src_img + '.png');
+    $(img).attr('src', section_img);
 
   });
 
   $(next).click(function () {
-    ++name_img;
+    ++section_img;
 
     if (name_img == 6) { $(next).hide(); }
     if (name_img > 1) { $(prev).show(); }
 
-    $(img).attr('src', 'img/' + src_img + '.png');
+    $(img).attr('src', section_img);
 
   });
 
-  $('.gallery-photos__close').click(function () {
+  $('.galerry-photos__close').click(function () {
 
-    $('body').css('overfiow', 'auto');
+    $('body').css('overflow', 'auto');
 
-    $('.gallery-photos__block').fadeOut(300, function () {
-      $('gallery-photos').fadeOut(300);
+    $('.galerry-photos__block').fadeOut(300, function () {
+      $('galerry-photos').fadeOut(300);
     });
     $(prev).hide();
     $(next).hide();
   });
 
-})();
+});
 
