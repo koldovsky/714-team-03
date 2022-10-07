@@ -132,9 +132,10 @@
     }
 } */
 
-@media (min-width: 990px) {
+@media (min-width: 991px) {
     .why__choose__us {
-        padding: 0px 40px;
+        padding: 0px 15px;
+        max-width: 1200px;
     }
 
     .why__choose__us__images {
@@ -147,5 +148,14 @@
 
     .preferences {
         max-width: 100%;
+        justify-content: space-between;
+        margin-bottom: 0px;
+    }
+
+    .first__preference,
+    .second__preference,
+    .third__preference,
+    .fourth__preference {
+        margin-top: 0px;
     }
 }
