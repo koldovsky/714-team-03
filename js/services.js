@@ -1,6 +1,6 @@
-(function(){
-
-    const services = ;
+(async function(){
+    const response = await fetch('api/services.json');
+    const services = await response.json();
 
     function renderServices(services) {
         const servicesContainer = document.querySelector('.services__cards');

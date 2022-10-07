@@ -25,12 +25,12 @@
 }
 
 .services__card__image {
-    width: 90vw;
+    width: 100%;
     margin-bottom: 10px;
 }
 
 .services__card__item {
-    margin: 15px 10px;
+    margin: 15px auto;
 }
 
 .services__card__item>h3 {
