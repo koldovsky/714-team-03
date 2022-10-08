@@ -114,10 +114,6 @@
     margin: auto;
 }
 
-
-
-
-
 .partners-block {
 
     width: 100%;
@@ -131,7 +127,6 @@
 
 .text-line-block {
     margin: auto;
-
     text-align: center;
 }
 
@@ -140,9 +135,14 @@
     font-size: 54px;
     color: #272523;
     font-family: "Playfair Display", serif;
-
-
-}
+    opacity: 0;
+    transition: all 1s ease 1s;
+  }
+  
+  .text-partners._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
 
 
 .line_two {
@@ -175,4 +175,10 @@
     align-items: center;
     border: 1px solid black;
     background-color: white;
+    transform: scale(1);
+    transition: all 1s ease 1s;
+}
+
+.image._active {
+    transform: scale(1);
 }
