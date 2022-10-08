@@ -49,4 +49,10 @@
 .main__traditional__image {
   display: block;
   width: 100%;
+  transform: scale(0);
+  transition: all 1s ease 0s;
+}
+
+.main__traditional__image._active {
+  transform: scale(1);
 }
