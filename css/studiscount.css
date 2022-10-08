@@ -53,6 +53,16 @@
 .main__discount__text {
   color: var(--white-color);
   text-align: center;
+
+  transform: translate(0px, 100%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+
+.main__discount__text._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+  transition: all 0.8s ease 0.4s;
 }
 
 .main__discount__button {

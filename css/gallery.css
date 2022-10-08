@@ -2,6 +2,11 @@
   margin: auto;
 }
 
+.gallery__main {
+  text-align: center;
+  margin: auto;
+}
+
 .gallery__header {
   font-size: 16px;
   font-stretch: 100%;
@@ -33,11 +38,12 @@
 }
 
 .p-3::after {
-  content: "";
-  position: absolute;
-  width: 45px;
-  height: 2px;
-  background-color: #3fb386;
+    content: "";
+    display: block;
+    width: 45px;
+    height: 2px;
+    background-color: #3fb386;
+    margin: auto;
 }
 
 .gallery__header__text__box::after {
@@ -100,6 +106,15 @@
   object-position: 100% 50%;
   display: block;
   width: 100%;
+}
+
+.gallery__main__image {
+  transform: scale(0);
+  transition: all 1.8s ease 0s;
+}
+
+.gallery__main__image._active {
+  transform: scale(1);
 }
 
 #carouselExampleControls {
