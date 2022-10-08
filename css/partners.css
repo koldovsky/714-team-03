@@ -136,7 +136,7 @@
     color: #272523;
     font-family: "Playfair Display", serif;
     opacity: 0;
-    transition: all 0.8s ease 0s;
+    transition: all 1s ease 1s;
   }
   
   .text-partners._active {
@@ -176,7 +176,7 @@
     border: 1px solid black;
     background-color: white;
     transform: scale(1);
-    transition: all 1s ease 0s;
+    transition: all 1s ease 1s;
 }
 
 .image._active {
