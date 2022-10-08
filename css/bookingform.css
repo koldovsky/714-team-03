@@ -131,6 +131,7 @@ input:-internal-autofill-selected {
   border-style: outset;
   border-color: buttonborder;
   border-image: initial;
+  cursor: pointer;
 }
 
 .form__title {
