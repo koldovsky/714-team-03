@@ -15,13 +15,6 @@
   background-attachment: fixed;
 }
 
-.booking__form__box {
-  display: contents;
-  position: relative;
-  text-align: center;
-  background-color: white;
-}
-
 .booking__header {
   font-size: inherit;
   color: #272523;
@@ -29,13 +22,23 @@
   font-weight: 700;
   font-style: normal;
   margin: 39px 47px 0px 47px;
+  display: grid;
 }
 
 .booking__header__title {
   font-weight: 700;
-  margin: auto;
-  color: var(--white-color);
-  padding-bottom: 10px;
+    margin: auto;
+    color: var(--white-color);
+    padding-bottom: 10px;
+    text-align: center;
+     transform: translate(0px, 100%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+
+.booking__header__title._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
 }
 
 .booking__header:after {
@@ -61,21 +64,32 @@
   font-style: normal;
   text-transform: none;
   margin-top: 10px;
+  text-align: center;
+}
+
+.booking__text__content {
+transform: scale(0);
+  transition: all 1.8s ease 0s;
+}
+
+.booking__text__content._active {
+ transform: scale(1);
 }
 
 .booking__form {
   margin-top: 25px;
+  text-align: -webkit-center;
 }
 
 .booking__form__string {
   padding: 5px;
   margin: 5px;
   background-color: rgba(39, 37, 35, 0.12);
-  display: block;
-  width: 100%;
+  display: flex;
+  width: auto;
   margin-top: 12px;
   font-family: inherit;
-  padding: 13px 30px;
+  padding: 13px 20px;
   font-size: 20px;
   line-height: 1.54;
   text-align: center;
@@ -90,6 +104,11 @@ input:-internal-autofill-selected {
     rgba(70, 90, 126, 0.4)
   );
   color: fieldtext;
+}
+
+.booking__form___field {
+  display: flex;
+  justify-content: center;
 }
 
 .booking__form__button__box {
