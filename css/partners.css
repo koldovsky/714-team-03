@@ -1,6 +1,12 @@
 /* @import url(css/common.css); */
 
-
+#taimer {
+    color:aquamarine;
+    font-size:50px;
+    font-weight:1000;
+    display:block;
+    margin:auto;
+}
 
 .we-always-block {
     background-image: url(../img/we.webp);
