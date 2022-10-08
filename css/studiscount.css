@@ -15,6 +15,7 @@
     ),
     url(../img/scisers.webp);
   background-attachment: fixed;
+  background-size: cover;
 }
 
 .main__discount__title {

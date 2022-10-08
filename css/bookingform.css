@@ -13,6 +13,7 @@
     ),
     url(../img/background-form.png);
   background-attachment: fixed;
+  background-size: cover;
 }
 
 .booking__header {
