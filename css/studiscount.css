@@ -86,6 +86,7 @@
   text-transform: uppercase;
   text-decoration: none;
   vertical-align: top;
+  cursor: pointer;
 }
 
 .main__discount__text {
