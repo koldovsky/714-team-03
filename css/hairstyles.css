@@ -198,8 +198,6 @@
     .hairstyles__title__span {
         font-size: 54px;
     }
-    
-    
 
     .hairstyle__description {
         flex-wrap: wrap;
@@ -211,11 +209,9 @@
         padding-bottom: 100px;
     }
 
-
     .popular__hairstyles {
         padding: 0px 15px;
     }
-
 
     .hairstyles_image {
         position: relative;
