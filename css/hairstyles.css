@@ -195,6 +195,12 @@
 
 @media (min-width: 1200px) {
 
+    .hairstyles__title__span {
+        font-size: 54px;
+    }
+    
+    
+
     .hairstyle__description {
         flex-wrap: wrap;
         flex-direction: row;
