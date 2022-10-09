@@ -121,19 +121,17 @@ a:hover {
 }
 
 .follow_block {
-    background-color: blueviolet;
+  
     display: flex;
     text-align: center;
     align-items: center;
     justify-self: end;
-
 }
 
 .follow {
     font-size: 22px;
     color: white;
     font-weight: 600;
-    background-color: green;
 }
 
 .social {
