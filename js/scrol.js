@@ -35,4 +35,27 @@ if (animItems.length > 0) {
     setInterval(() => {
         animOnScroll();
     }, 2000);
-}
+
+    function remuveResiseStyles(image) {
+        image.classList.remove('_onhower');
+        image.classList.remove('_onout');
+    }
+
+    function animOnHover(image) {
+        remuveResiseStyles(image)
+        image.classList.add('_onhower');
+    }
+
+    function animOnOut(image) {
+        remuveResiseStyles(image)
+        image.classList.add('_onout');
+
+    }
+    for (let index = 0; index < animItems.length; index++) {
+        let image = animItems[index]
+        image.addEventListener("mouseover", () => animOnHover(image))
+        image.addEventListener("mouseout", () => animOnOut(image))
+    }
+
+
+} 
