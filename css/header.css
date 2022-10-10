@@ -20,6 +20,9 @@
     display: none;
 }
 
+
+/* Comment for burger */
+
 .menu-button {
     width: 1.5rem;
     position: absolute;
@@ -47,6 +50,7 @@
     top: calc(0.25rem * 4);
 }
 
+/* End of burger */
 
 
 @media (min-width: 991px) {
