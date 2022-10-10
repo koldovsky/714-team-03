@@ -3,83 +3,126 @@
     margin: 0;
 }
 
-.phone__header {
-    color: var(--green-color);
-    padding: 2px;
-}
 
-.header__contacts-tel__list {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    margin: 0%;
-
-}
-
-.phone:hover {
-    color: white;
-}
 
 .header__contacts {
-    padding: 0 40px;
-    height: 45px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--black-color);
-    font-family: Montserrat, sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-
-}
-
-.header__contacts>ul {
-    display: inline;
+    display: none;
 }
 
 .header__logo__img {
     width: 145px;
 }
 
-.logo_2gS {
-    fill: white;
-}
-
-.header__contacts span {
-    color: var(--gray-color);
-}
-
-/*
-.header__contacts {
-    display: none;
-}*/
-
-
 .header__box {
     background: var(--title-brown-color);
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 40px
+    padding: 20px 24px;
 }
 
-.networks__list a {
-    color: var(--white-color);
+.header__box > .nav__menu {
+    display: none;
 }
 
-.menu__list {
-    display: flex;
-    justify-content: space-between;
+.menu-button {
+    width: 1.5rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    cursor: pointer;
+    height: calc(0.25rem * 5);
+    margin: 10px 20px 0px 0px;
+    z-index: 900;
 
 }
 
-.menu__ancor {
-    text-decoration: none;
-    color: var(--white-color);
-    padding: 5px;
+.menu-button span {
+    width: 30px;
+    height: 2px;
+    background-color: var(--white-color);
+    display: block;
+    position: absolute;
+    transition: all 0.6s ease;
+}
+.menu-button span:nth-of-type(2) {
+    top: calc(0.25rem * 2);
+}
+.menu-button span:nth-of-type(3) {
+    top: calc(0.25rem * 4);
 }
 
-.networks__list {
-    display: flex;
-    justify-content: space-between;
-}
 
+
+@media (min-width: 991px) {
+    .phone__header {
+        color: var(--green-color);
+        padding: 2px;
+    }
+    
+    .header__contacts-tel__list {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        margin: 0%;
+    
+    }
+    
+    .phone:hover {
+        color: white;
+    }
+    
+    .header__contacts {
+        padding: 0 40px;
+        height: 45px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--black-color);
+        font-family: Montserrat, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+    
+    }
+    
+    .header__contacts>ul {
+        display: inline;
+    }
+    
+    .header__logo__img {
+        width: 145px;
+    }
+    
+    .logo_2gS {
+        fill: white;
+    }
+    
+    .header__contacts span {
+        color: var(--gray-color);
+    }
+    
+    .header__box {
+        background: var(--title-brown-color);
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 40px
+    }
+    
+    .networks__list a {
+        color: var(--white-color);
+    }
+    
+    .menu__list {
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    .menu__ancor {
+        text-decoration: none;
+        color: var(--white-color);
+        padding: 5px;
+    }
+    
+    .networks__list {
+        display: flex;
+        justify-content: space-between;
+    }
+}
