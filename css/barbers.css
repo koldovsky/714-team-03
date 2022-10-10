@@ -7,7 +7,7 @@
 
 .barbers_block {
     /* width: 100%;*/
-    background-image: url(img/fone.webp);
+    background-image: url(../img/fone.webp);
     background-color: black;
     padding: 130px 0px;
     flex-wrap: wrap;
