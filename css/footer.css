@@ -52,6 +52,20 @@ a:hover {
     margin: auto;
 }
 
+@media(min-width:320px) {
+    .nav_menu {
+        text-align: center;
+        -webkit-box-align: stretch;
+        justify-content: center;
+        margin-top: -170px;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        margin-left: 35px;
+        margin: auto;
+        box-sizing: border-box;
+    }
+}
 
 @media(min-width:560px) {
     .nav_menu {
