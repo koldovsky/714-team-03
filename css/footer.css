@@ -61,7 +61,6 @@ a:hover {
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        margin-left: 5px;
         margin: auto;
         box-sizing: border-box;
     }
@@ -76,7 +75,6 @@ a:hover {
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        margin-left: 5px;
         margin: auto;
         box-sizing: border-box;
     }
@@ -91,7 +89,6 @@ a:hover {
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        margin-left: 5px;
     }
 }
 
