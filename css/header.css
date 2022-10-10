@@ -3,8 +3,6 @@
     margin: 0;
 }
 
-
-
 .header__contacts {
     display: none;
 }
@@ -67,6 +65,14 @@
     
     .phone:hover {
         color: white;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    .header__box > .nav__menu {
+        display: block;
     }
     
     .header__contacts {
