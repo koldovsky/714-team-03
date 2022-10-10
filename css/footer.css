@@ -126,6 +126,7 @@ a:hover {
     text-align: center;
     align-items: center;
     justify-self: end;
+    margin-left:70px;
 }
 
 .follow {
@@ -140,5 +141,5 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-self: center;
-    margin: auto;
+    margin-left: 10px;
 }
