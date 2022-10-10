@@ -2,10 +2,18 @@
     margin: 0;
     
 }
- .phone {
+ .phone__header {
     color: var(--green-color);
+    padding: 2px;
 }
 
+.header__contacts-tel__list{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 0%;
+
+}
 .phone:hover {
     color: white;
 }
@@ -23,6 +31,22 @@
 
 }
 
+.header__contacts > ul {
+    display: inline;
+}
+
+.header__logo__img {
+    width: 145px;
+}
+
+.logo_2gS {
+    fill: white;
+}
+
+.nav__menu {
+
+}
+
 .header__contacts span {
     color: var(--gray-color);
 } 
@@ -30,6 +54,7 @@
 .header__contacts {
     display: none;
 }*/
+
 
 .header__box {
     background: var(--title-brown-color);
