@@ -122,16 +122,6 @@
 }
 
 
-
-
-#countdown {
-
-    color: red;
-}
-
-
-
-
 .we-always-block {
     background-image: url(img/we.webp);
     background-repeat: no-repeat;
@@ -227,6 +217,7 @@
     position: relative;
     margin: 30px 0;
 }
+    
 
 
 
