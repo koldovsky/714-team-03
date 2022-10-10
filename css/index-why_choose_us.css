@@ -99,7 +99,9 @@
         margin-top: 60px;
         display: flex;
         flex-wrap: wrap;
-        max-width: 991px;
+        flex-basis: 100%;
+        max-width: 75%;
+        justify-content: space-evenly;
     }
 
 
@@ -109,30 +111,8 @@
 }
 
 
-/* @media (min-width: 800px) {
-    .preferences {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 75%;
-        padding: 0px 15px;
-    }
-
-
-    .why__choose__us {
-        padding: 0px 32px;
-    }
-
-    .why__choose__us__title {
-        line-height: 55.2px;
-        font-size: 46px;
-    }
-
-    .why__choose__us__images {
-        width: 70px;
-    }
-} */
-
 @media (min-width: 991px) {
+
     .why__choose__us {
         padding: 0px 15px;
         max-width: 1200px;

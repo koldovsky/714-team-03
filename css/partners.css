@@ -6,6 +6,8 @@
     font-weight:1000;
     display:block;
     margin:auto;
+    z-index:3;
+    position:relative;
 }
 
 .we-always-block {

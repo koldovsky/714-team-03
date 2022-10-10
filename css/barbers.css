@@ -7,7 +7,7 @@
 
 .barbers_block {
     /* width: 100%;*/
-    background-image: url(img/fone.webp);
+    background-image: url(../img/fone.webp);
     background-color: black;
     padding: 130px 0px;
     flex-wrap: wrap;
@@ -49,7 +49,7 @@
     font-weight: 800;
     text-align: center;
     padding: 40px 20px 10px 320px;
-    margin: 0px 150px 0px 0px;
+    margin: 0px 150px 0px 100px;
     z-index: 2;
     position: relative;
 }
@@ -63,6 +63,7 @@
     padding: 3px 70px 0px 0px;
     z-index: 2;
     position: relative;
+    margin:auto;
 }
 
 
@@ -122,18 +123,8 @@
 }
 
 
-
-
-#countdown {
-
-    color: red;
-}
-
-
-
-
 .we-always-block {
-    background-image: url(img/we.webp);
+    background-image: url(../img/we.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
@@ -227,6 +218,7 @@
     position: relative;
     margin: 30px 0;
 }
+    
 
 
 
