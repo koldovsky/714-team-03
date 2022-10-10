@@ -307,26 +307,6 @@
    <section class="we-always-block">
      
     <p id="taimer"></p>
-
-<script>
-var countDownDate = new Date("Oct 30, 2022 15:00:00").getTime();
-var x = setInterval(function() {
-  var now = new Date().getTime();
-  var distance = countDownDate - now;
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  document.getElementById("taimer").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("taimer").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script> 
      
     <div class="we-always">
 
@@ -602,7 +582,8 @@ var x = setInterval(function() {
   
 
   
-  <script src="js/scrol.js"></script>
+  <script src="js/scrol.js"></script>         
+  <script src="js/we_are.js"></script>
   <script src="js/partners.js"></script>
   <script src="js/contact-form-formspree.js"></script>
   <script src="js/gallery.js"></script>
