@@ -22,14 +22,35 @@
     font-size: 38px;
     font-stretch: 100%;
     font-weight: 700;
-    padding-bottom: 10px;
+    padding: 45px 15px;
     position: relative;
     text-align: center;
-    padding: 0px 15px;
-    margin: 30px 0px;
+}
+
+.hairstyles__title::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: 0;
+    background-color: currentColor;
+    opacity: .3;
 }
 
 .hairstyles__title::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: currentColor;
+    opacity: .3;
+}
+
+
+.hairstyles__title__span::after {
     content: "";
     display: block;
     height: 2px;
@@ -103,6 +124,14 @@
 
 @media (min-width: 768px) {
 
+    .hairstyles__main {
+        padding: 80px 0px;
+    }
+
+    .hairstyles__block {
+        padding: 0px 32px;
+    }
+
     .hairstyles_image {
         position: relative;
         width: 337px;
@@ -118,6 +147,10 @@
     .hairstyle__article {
         max-width: 50%;
     }
+
+    .hairstyles__title__span {
+        font-size: 46px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -126,9 +159,18 @@
         max-width: 1200px;
     }
 
+    .hairstyles__block {
+        padding: 0px 40px;
+    }
+
+    .hairstyles__title__box {
+        max-width: 840px;
+        margin: 0 auto;
+    }
+
     .hairstyles__title {
         font-size: 54px;
-        margin: 70px 0px;
+        padding: 60px 0px;
     }
 
     .hairstyles__name {
@@ -153,6 +195,10 @@
 
 @media (min-width: 1200px) {
 
+    .hairstyles__title__span {
+        font-size: 54px;
+    }
+
     .hairstyle__description {
         flex-wrap: wrap;
         flex-direction: row;
@@ -163,11 +209,9 @@
         padding-bottom: 100px;
     }
 
-
-    .popular__hairstyles{
+    .popular__hairstyles {
         padding: 0px 15px;
     }
-
 
     .hairstyles_image {
         position: relative;
@@ -181,11 +225,11 @@
         padding: 0px 15px;
     }
 
-    .hairstyles__name{
+    .hairstyles__name {
         font-size: 28px;
     }
 
-    .hairstyles__author{
+    .hairstyles__author {
         font-size: 18px;
     }
 }
