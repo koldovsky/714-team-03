@@ -10,6 +10,7 @@
   <body>
 
     <header class="header">
+        <div class="header__conteiner">
         <section class="header__contacts">
           <div class="header__contacts-tel">
             <ul class="header__contacts-tel__list">
@@ -81,15 +82,11 @@
             </ul>
           </div>
         </section>
-    
-        <div class="header__box">
-          <div class="header__logo">
-            <a href="index.html"><img src="img/logo_tommy.png" alt="logo" class="header__logo__img" /></a>
-          </div>
-          <div class="menu-button">
-            <span></span>
-            <span></span>
-            <span></span>
+          
+         <a href="index.html" class="header__logo"><img src="img/logo_tommy.png" alt="logo" class="header__logo__img" /></a>
+         <div class="header__box menu">
+          <div class="menu__icon">
+           <span></span>
           </div>
           <nav class="nav__menu">
             <ul class="menu__list">
@@ -104,6 +101,7 @@
             </ul>
           </nav>
         </div>
+      </div>
     </header>
 
     <main>
@@ -194,13 +192,11 @@
         </div>
         <div class="testimonials__row">
           <div class="testimonials__column-photo">
-            <a href="#popup" class="content__image popup-link">
                 <img
                 class="testimonials__img"
                 src="img/testimonial-frank.jpg"
                 alt="testimonial-frank"
                 />
-            </a>
           </div>
           <div class="testimonials__column-content">
             <div class="testimonials__name">
@@ -224,18 +220,7 @@
           </div>
         </div>
       </div>
-      <div id="popup" class="popup">
-        <div class="popup__body">
-            <div class="popup__content popup__content_image">
-                <a href="#header" class="popup__close close-popup">X</a>
-                <div class="popup__image">
-                    <img src="img/testimonial-thomas.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-     <!-- from my footer -->
-    <div id="contacts" class="footer-container">
+   <!--  <footer id="contacts" class="footer-container">
         <form
             id="contact-form"
             action="https://formspree.io/f/maykjyzj"
@@ -248,80 +233,11 @@
             <button id="my-form-button">Submit</button>
         </form>
         <p id="testimonials__contact-form-status"></p>
-       <!--  <form id="contact-form-nodejs" action="contact" method="POST">
-        <h3>NodeJS</h3>
-        <label>Email:</label>
-        <input type="email" name="email" />
-        <label>Message:</label>
-        <input type="text" name="message" />
-        <button id="my-form-button">Submit</button>
-      </form> -->
-    </div>
+    </footer> -->
     </main>
 
-    <footer class="main_footer container">
-        <link rel="stylesheet" href="footer.css">
-
-        <div class="logo_plus_contacts">
-            <div class="logo">
-                <img src="img/logo_tommy.png" alt="Tommy_logo" class="logo">
-            </div>
-
-            <div class="nav_phone">
-                <p class="footer_text">Lands' End <a href="tel:+1(234)5678900" class="phone">+1(234)5678900</a></p>
-                <p class="footer_text">Cathedral Hill <a href="tel:+1(234)5678901" class="phone">+1(234)5678901</a></p>
-            </div>
-        </div>
-
-        <div class="nav_menu">
-            <div class="about">
-                <a href="about_us.html" class="menu_item">About us</a>
-                <a href="testimonials.html" class="menu_item">Testimonials</a>
-                <a href="#blog" class="menu_item">Blog</a>
-            </div>
-
-            <div class="services">
-                <a href="services.html" class="menu_item">Services</a>
-                <a href="barbers.html" class="menu_item">Barbers</a>
-                <a href="#contacts" class="menu_item">Contacts</a>
-            </div>
-
-            <div class="gallery">
-                <a href="gallery.html" class="menu_item">Gallery</a>
-                <a href="hairstyles.html" class="menu_item">Hairstyles</a>
-            </div>
-        </div>
-
-
-        <div class="follow_block">
-
-            <div class="follow_text">
-                <h2 class="follow">Follow Us</h2>
-            </div>
-
-            <div class="social">
-
-                <div class="instagram">
-                    <a href="https://www.instagram.com" class="link"><img src="img/insta_logo.png"
-                            alt="Instagram" class="social_logo"></a>
-                </div>
-
-                <div class="facebook">
-                    <a href="https://www.facebook.com" class="link"><img src="img/facebook_logo.png"
-                            alt="Youtube" class="social_logo">
-                </div>
-                <div class="youtube">
-                    <a href="https://www.youtube.com" class="link"><img src="img/youtube_logo.png" alt="Youtube"
-                            class="social_logo"></a>
-                </div>
-            </div>
-        </div>
-
-
-    </footer>
-
-    <script src="js/testimonials__popup.js" ></script>
+    <script src="js/header__burger.js"></script>
     <script src="js/testimonials__clock.js"></script>
-    <script src="js/testimonials__contact-form-formspree.js"></script>
+  <!--   <script src="js/testimonials__contact-form-formspree.js"></script> -->
   </body>
 </html>

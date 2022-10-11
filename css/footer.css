@@ -129,12 +129,14 @@ a:hover {
     align-items: center;
     justify-self: end;
     margin-left:80px;
+    margin-top:20px;
 }
 
 .follow {
     font-size: 22px;
     color: white;
     font-weight: 600;
+    margin-top:20px;
 }
 
 .social {
@@ -144,4 +146,5 @@ a:hover {
     flex-direction: row;
     justify-self: center;
     margin-left: 10px;
+    margin-top:20px;
 }
