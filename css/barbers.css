@@ -6,7 +6,7 @@
 }
 
 .barbers_block {
-    /* width: 100%;*/
+    width: 100%
     background-image: url(../img/fone.webp);
     background-color: black;
     padding: 130px 0px;
@@ -68,7 +68,7 @@
 
 
 .barbers_character_block {
-    width: 368px;
+    width: 100%;
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(3, 1fr);
@@ -151,7 +151,6 @@
     background: rgba(0, 0, 0, .5);
     opacity: 0.9;
     position: absolute;
-
 }
 
 .text {
@@ -163,8 +162,6 @@
     position: relative;
     padding: 20px 250px 30px 250px;
 }
-
-
 
 .talented {
     color: #FFFFFF;
@@ -187,13 +184,10 @@
     position: relative;
 }
 
-
-
 .text-block {
     padding: 25px 0px 0px 45px;
     z-index: 4;
     margin:auto;
-
 }
 
 .see-open-button: {
@@ -217,10 +211,7 @@
     position: relative;
     margin: 30px 0;
 }
-    
-
-
-
+  
 .check-text {
     color: #FFFFFF;
     font-size: 30px;
