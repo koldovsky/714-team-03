@@ -17,17 +17,18 @@
 
 
   <body>
-    <header class="header">
+  <header class="header">
+    <div class="header__conteiner">
     <section class="header__contacts">
       <div class="header__contacts-tel">
-        <ul>
+        <ul class="header__contacts-tel__list">
           <li>
             <span>Lands' End T.</span>
-            <a class="phone" href="tel:+12345678900" data-action="phone">+1 (234) 567 89 00</a>
+            <a class="phone__header" href="tel:+12345678900" data-action="phone">+1 (234) 567 89 00</a>
           </li>
           <li>
             <span>Cathedral Hill T.</span>
-            <a class="phone" href="tel:+12345678901" data-action="phone">+1 (234) 567 89 01</a>
+            <a class="phone__header" href="tel:+12345678901" data-action="phone">+1 (234) 567 89 01</a>
           </li>
         </ul>
       </div>
@@ -89,17 +90,13 @@
         </ul>
       </div>
     </section>
-
-    <div class="header__box">
-      <div class="header__logo">
-        <a href="index.html"><img width="145" src="img/logo_tommy.png" alt="logo" /></a>
+      
+     <a href="index.html" class="header__logo"><img src="img/logo_tommy.png" alt="logo" class="header__logo__img" /></a>
+     <div class="header__box menu">
+      <div class="menu__icon">
+       <span></span>
       </div>
-      <div class="menu-button">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <nav class="menu">
+      <nav class="nav__menu">
         <ul class="menu__list">
           <li> <a class="menu__ancor" href="services.html">Services</a></li>
           <li> <a class="menu__ancor" href="gallery.html">Gallery</a></li>
@@ -112,6 +109,7 @@
         </ul>
       </nav>
     </div>
+  </div>
   </header>
   <main>    
     <div class="gallery">
@@ -212,5 +210,6 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
+    <script src="js/header__burger.js"></script>
   </body>
 </html>
