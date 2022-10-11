@@ -76,6 +76,10 @@ body._lock {
         font-weight: bold;
     
     }
+
+    .nav__menu {
+        margin-top: 20px;
+    }
     
     .header__contacts>ul {
         display: inline;
