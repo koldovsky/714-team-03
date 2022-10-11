@@ -234,7 +234,49 @@
             </div>
         </div>
     </div>
-     <!-- from my footer -->
+
+    <!-- form from index.html -->
+    <section id="go_form" class="booking">
+        <div class="booking__background">
+          <div class="booking__form__box">
+            <section class="booking__header">
+              <h2 class="booking__header__title _anim-items">Book an Appointment</h2>
+            </section>
+            <section class="booking__text">
+              <p class="booking__text__content _anim-items">
+                Want to get a perfect haircut? Just book an appointment and we'll
+                contact you as soon as possible.
+              </p>
+            </section>
+            <div class="booking__form">
+              <form id="contact-form" action="https://formspree.io/f/xlevnewo" method="POST">
+                <div class="booking__form___field">
+                  <input type="text" name="name" required placeholder="Name*" class="booking__form__string" />
+                </div>
+                <div class="booking__form___field">
+                  <input type="tel" name="phone-number" required placeholder="Phone nomber*"
+                    class="booking__form__string" />
+                </div>
+                <div class="booking__form___field">
+                  <input type="email" name="email" required placeholder="Email*" class="booking__form__string" />
+                </div>
+                <div class="booking__form___field">
+                  <input type="text" name="location" required placeholder="Location" class="booking__form__string" />
+                </div>
+                <div class="booking__form__button__box">
+                  <button type="submit" class="booking__form__button">
+                    Book an appointment
+                  </button>
+                </div>
+              </form>
+              <p id="contact-form-status"></p>
+            </div>
+          </div>
+        </div>
+      </section> 
+    <!-- form from index.html -->
+
+    <!-- form from my footer -->
     <div id="contacts" class="footer-container">
         <form
             id="contact-form"
@@ -248,6 +290,8 @@
             <button id="my-form-button">Submit</button>
         </form>
         <p id="testimonials__contact-form-status"></p>
+        <!-- form from my footer -->
+        
        <!--  <form id="contact-form-nodejs" action="contact" method="POST">
         <h3>NodeJS</h3>
         <label>Email:</label>
