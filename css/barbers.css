@@ -68,7 +68,7 @@
 
 
 .barbers_character_block {
-    width: 100%;
+    width: 368px;
     display: grid;
     grid-gap: 15px;
     grid-template-columns: repeat(3, 1fr);
