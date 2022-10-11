@@ -72,8 +72,7 @@ body._lock {
         background-color: var(--black-color);
         font-family: Montserrat, sans-serif;
         font-size: 12px;
-        font-weight: bold;
-    
+        font-weight: bold;    
     }
 
     .nav__menu {
