@@ -3,7 +3,7 @@
   margin: auto;
 }
 
-.discount__beckgrount {
+.discount__background {
   margin: 0 auto;
   padding: 60px 24px;
   position: relative;
@@ -67,11 +67,6 @@
 }
 
 .main__discount__button {
-  color: var(--white-color);
-  text-decoration: none;
-}
-
-.main__discount__button__box {
   border: 3px solid var(--green-color);
   background-color: var(--green-color);
   color: var(--white-color);
@@ -88,6 +83,14 @@
   text-decoration: none;
   vertical-align: top;
   cursor: pointer;
+
+  transition: background 0.3s linear;
+}
+
+.main__discount__button:hover{
+  border-color: var(--black-color);
+  background-color: var(--black-color);
+  color: var(--green-color);
 }
 
 .main__discount__text {

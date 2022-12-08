@@ -28,8 +28,7 @@
     font-weight: 400;
 }
 
-
-.main__button__box {
+.main__discount__button {
     margin: auto;
     border: 3px solid var(--green-color);
     background-color: var(--green-color);
@@ -45,9 +44,4 @@
     text-transform: uppercase;
     text-decoration: none;
     vertical-align: top;
-}
-
-.main__discount__button {
-    color: var(--white-color);
-    text-decoration: none;
 }
